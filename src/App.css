@@ -1,0 +1,203 @@
+
+.app-shell {
+  min-height: 100vh;
+  background: #f7f8fa;
+  color: #292d32;
+}
+
+.navbar {
+  min-height: 76px;
+}
+
+.navbar-brand {
+  color: #282d32;
+  font-size: 1.3rem;
+  letter-spacing: -0.5px;
+}
+
+.navbar-brand:hover {
+  color: #282d32;
+}
+
+.brand-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff0f0;
+  color: #c62828;
+  font-size: 1.25rem;
+}
+
+.brand-accent {
+  color: #c62828;
+}
+
+.section-label {
+  color: #c62828;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.btn-danger {
+  --bs-btn-bg: #c62828;
+  --bs-btn-border-color: #c62828;
+  --bs-btn-hover-bg: #a91f1f;
+  --bs-btn-hover-border-color: #a91f1f;
+  --bs-btn-active-bg: #941b1b;
+  --bs-btn-active-border-color: #941b1b;
+}
+
+.summary-card,
+.donor-card {
+  border: 1px solid #e9ebef;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(25 35 45 / 3%);
+}
+
+.summary-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #fff0f0;
+  color: #c62828;
+  font-size: 1.35rem;
+}
+
+.available-icon {
+  background: #e8f7ed;
+  color: #218447;
+}
+
+.donor-card {
+  overflow: hidden;
+}
+
+.search-box {
+  min-width: 220px;
+}
+
+.search-box .input-group-text,
+.search-box .form-control,
+.blood-filter {
+  border-color: #e0e3e8;
+}
+
+.search-box .form-control:focus,
+.blood-filter:focus,
+.form-control:focus,
+.form-select:focus {
+  border-color: #d98282;
+  box-shadow: 0 0 0 0.2rem rgb(198 40 40 / 10%);
+}
+
+.blood-filter {
+  min-width: 160px;
+}
+
+.donor-table thead th {
+  padding: 14px 12px;
+  background: #f8f9fb;
+  color: #68717d;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-bottom: 1px solid #e9ebef;
+}
+
+.donor-table tbody td {
+  padding: 16px 12px;
+  border-color: #edf0f3;
+  font-size: 0.88rem;
+}
+
+.donor-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.blood-badge {
+  display: inline-block;
+  min-width: 44px;
+  padding: 6px 9px;
+  border-radius: 7px;
+  background: #fff0f0;
+  color: #b71c1c;
+  font-weight: 700;
+  text-align: center;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.status-available {
+  background: #e8f7ed;
+  color: #217442;
+}
+
+.status-unavailable {
+  background: #f0f1f3;
+  color: #656d78;
+}
+
+.address-cell {
+  min-width: 150px;
+  max-width: 230px;
+}
+
+.modal-content {
+  border: 0;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.modal-header,
+.modal-footer {
+  border-color: #edf0f3;
+  padding: 18px 24px;
+}
+
+.form-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.form-control,
+.form-select {
+  border-color: #dfe3e8;
+  padding: 10px 12px;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    min-height: 64px;
+  }
+
+  .navbar-brand {
+    font-size: 1.15rem;
+  }
+
+  .search-box,
+  .blood-filter {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .modal-header,
+  .modal-footer {
+    padding: 16px;
+  }
+}
